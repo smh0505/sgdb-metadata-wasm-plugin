@@ -1,0 +1,10 @@
+{
+  "id": "sgdb-wasm",
+  "name": "SteamGridDB (WASM)",
+  "version": "0.1.0",
+  "kind": "metadata",
+  "entry": "sgdb_metadata_wasm_plugin.wasm",
+  "settingsSchema": [
+    { "key": "api_key", "label": "SteamGridDB API Key", "type": "password" }
+  ]
+}
