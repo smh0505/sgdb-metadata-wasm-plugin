@@ -1,7 +1,7 @@
 {
   "id": "sgdb-wasm",
-  "name": "SteamGridDB (WASM)",
-  "version": "0.1.0",
+  "name": "SteamGridDB",
+  "version": "0.1.1",
   "kind": "metadata",
   "entry": "sgdb_metadata_wasm_plugin.wasm",
   "settingsSchema": [
