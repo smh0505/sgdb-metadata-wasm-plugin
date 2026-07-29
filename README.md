@@ -22,6 +22,11 @@ declares one; no custom UI code needed on either side). Stored via the same name
 `settings-set`), just written from the frontend directly using the identical key format instead
 of round-tripping through a WASM call to set it.
 
+## Permissions
+
+Declares `httpScopes: ["steamgriddb.com"]` (Milestone 13 URL allowlisting) - covers
+`www.steamgriddb.com` via subdomain match.
+
 ## Building
 
 ```sh
